@@ -10,6 +10,7 @@
 
     <properties>
         <spring.boot.starter.version>1.4.2.RELEASE</spring.boot.starter.version>
+        <springfox.version>2.6.1</springfox.version>
     </properties>
 
     <parent>
@@ -25,6 +26,22 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.boot.starter.version}</version>
         </dependency>
+
+
+        <!-- day02中使用到的springfox -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox.version}</version>
+        </dependency>
+
+
+
     </dependencies>
 
     <build>
