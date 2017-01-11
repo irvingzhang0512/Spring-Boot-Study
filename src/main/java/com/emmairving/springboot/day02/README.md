@@ -10,17 +10,17 @@
 ## 2.搭建
 + 添加maven依赖
 ```xml
-        <!-- day02中使用到的springfox -->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${springfox.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>${springfox.version}</version>
-        </dependency>
+<!-- day02中使用到的springfox -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>${springfox.version}</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>${springfox.version}</version>
+</dependency>
 ```
 
 + 添加SpringFox的配置文件
@@ -139,3 +139,6 @@ public class TestController {
 + value：变量介绍
 + required：是否必须
 + hidden：是否隐藏
+
+## 4. 注意事项
++ 使用springfox时，发现springfox与junit单元测试有冲突，需要在单元测试中添加@WebAppConfiguration注释才能解决。
