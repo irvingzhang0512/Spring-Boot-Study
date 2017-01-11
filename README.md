@@ -1,9 +1,9 @@
 # 自学Spring-Boot
 
-1. day01 使用Intellij IDEA创建项目
-2. day02 配置SpringFox
-3. day03 配置MyBatis
-4. day04 配置log4j2
+1. [day01 使用Intellij IDEA创建项目](http://blog.csdn.net/irving512/article/details/54085522)
+2. [day02 配置SpringFox](http://blog.csdn.net/irving512/article/details/54131163)
+3. [day03 配置MyBatis](http://blog.csdn.net/irving512/article/details/54231362)
+4. [day04 配置log4j2](http://blog.csdn.net/irving512/article/details/54363017)
 
 # 资料
 + [程序猿DD](https://git.oschina.net/didispace/SpringBoot-Learning)
